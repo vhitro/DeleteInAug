@@ -13,6 +13,9 @@ public class FileTest {
         Assert.assertEquals(file.getContent(), "Test text for exampleOne txt file!");
     }
 
+    // getExtension() и getContent() - в начальном коде гетеров на это нет, и тебе нужно подумать, как достать значения
+    //на которые кто то забыл написать геттер
+
     @Test
     public void testFileSizeCalculation(){
         File file = new File("example.txt","12345678");
@@ -28,4 +31,6 @@ public class FileTest {
         new File("null.txt", null);
     }
 
+
+    //три последних теста пока коментить не буду, делать то, на что я коменты уже написала
 }

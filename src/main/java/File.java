@@ -43,6 +43,7 @@ public class File {
     public String getFilename() {
         return this.filename;
     }
+    //это в начальном коде не было
 
     /**
      * Get File extebtion
@@ -51,6 +52,7 @@ public class File {
     public String getExtension() {
         return this.extension;
     }
+    //это в начальном коде не было
 
     /**
      * Get File content
@@ -59,4 +61,5 @@ public class File {
     public String getContent() {
         return this.content;
     }
+    //это в начальном коде не было
 }
